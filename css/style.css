@@ -14,3 +14,6 @@ footer {
 nav {
     display:inline
 }
+section {
+    border: solid;
+}
