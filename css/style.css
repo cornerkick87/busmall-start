@@ -1,0 +1,16 @@
+*{
+    background-color: red;
+}
+canvas {
+    height: 10em;
+    width: 10em;
+}
+#results {
+    border: solid;
+}
+footer {
+    border: solid;
+} */
+nav {
+    display:inline
+}
