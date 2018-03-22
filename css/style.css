@@ -1,5 +1,5 @@
 *{
-    background-color: red;
+    background-color: grey;
 }
 canvas {
     height: 10em;
@@ -15,5 +15,9 @@ nav {
     display:inline
 }
 section {
-    border: solid;
+    width: 60em;
+    border: solid
+}
+ul{
+    width: 300px;
 }
