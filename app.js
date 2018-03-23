@@ -39,16 +39,16 @@ function Merchandise(filepath, name) {
 
 
 
-// function setupMerch() {
-//   var merchAsString = localStorage.getItem('merchandise');
-//   var usableMerch = JSON.parse(merchAsString);
-//   if (usableMerch && usableMerch.length) {
-//     Merchandise.allMerchandise = usableMerch;
-//     console.log("loaded from local storage");
-//     return;
-//   }
-// }
-// setupMerch();
+function setupMerch() {
+  var merchAsString = localStorage.getItem('merchandise');
+  var usableMerch = JSON.parse(merchAsString);
+  if (usableMerch && usableMerch.length) {
+    Merchandise.allMerchandise = usableMerch;
+    console.log("loaded from local storage");
+    return;
+  }
+}
+setupMerch();
 // new instances of Merch
 new Merchandise('img/bag.jpg', 'r2d2 bag');
 new Merchandise('img/banana.jpg', 'banana cutter');
@@ -95,6 +95,9 @@ function randomMerchandise(event) {
     
     //update votes
     updateVotes();
+    
+    var saveVotes = JSON.stringify(Merchandise.allMerchandise);
+    localStorage.setItem('Merchandise', saveVotes);
     //display chart
     renderChart();
     return;
