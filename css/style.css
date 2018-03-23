@@ -1,10 +1,6 @@
 *{
     background-color: grey;
 }
-canvas {
-    height: 10em;
-    width: 10em;
-}
 #results {
     border: solid;
 }
@@ -14,10 +10,14 @@ footer {
 nav {
     display:inline
 }
-section {
+section, canvas {
     width: 60em;
-    border: solid
+    border: 2px solid;
 }
 ul{
     width: 300px;
+}
+canvas {
+    height: 400px;
+    width: 600px;
 }

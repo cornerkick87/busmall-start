@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>title</title>
+    <title>busMall</title>
     <!-- <link rel="stylesheet" href="css/reset.css"> -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-
-
 <body>
+        <!-- <img src="" alt=""> -->
     <nav>
         <ul>
             <li>Home</li>
@@ -18,22 +17,13 @@
     </nav>
     
     <h1>Click to vote on our merchandise!</h1>
-    
-    <section id="Merch-section">
+    <ul id="results"></ul>
+    <section id="merch-section">
         <img id="left" src="" alt="" data-merchandise = "">
         <img id="middle" src="" alt="" data-merchandise = "">
         <img id="right" src="" alt="" data-merchandise = "">
     </section>
-    
-    <h1>Results</h1>
-    
-    <ul id="results"></ul>
-    
-    
-    
-    <canvas id="Merchandise-chart"></canvas>
-    <footer> footer </footer>  
-    
+    <canvas id="merchandiseChart"></canvas>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
     <script src="app.js"></script>
     
