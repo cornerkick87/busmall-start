@@ -1,0 +1,23 @@
+*{
+    background-color: grey;
+}
+#results {
+    border: solid;
+}
+footer {
+    border: solid;
+} */
+nav {
+    display:inline
+}
+section, canvas {
+    width: 60em;
+    border: 2px solid;
+}
+ul{
+    width: 300px;
+}
+canvas {
+    height: 400px;
+    width: 600px;
+}
